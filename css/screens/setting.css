@@ -1,0 +1,61 @@
+.upper-bar__set {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px 30px 40px;
+}
+.upper-bar__set h1 {
+    font-size: 24px;
+    font-weight: 800;
+    font-weight: 800;
+}
+.upper-bar__set_icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.setting__list {
+    margin: 40px 40px;
+    font-size: 22px;
+}
+.setting__section li {
+    padding: 20px 10px;
+    position: relative;
+    border-bottom: solid 0.5px whitesmoke;
+    position: relative;
+}
+.setting__section i {
+    margin-right: 15px;
+} 
+.setting__section h2 {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    color: gray;
+}
+
+.setting__section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: solid 0.5px silver;
+}
+.setting__section li:last-child {
+    border-bottom: none;
+    border-bottom: 0;
+}
+
+.setting--new {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    border-radius: 50%;
+    width: 22px;
+    height: 18px;
+    background-color: tomato;
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+    margin:0;
+    padding-top: 5px;
+}
