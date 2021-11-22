@@ -1,0 +1,13 @@
+.find {
+    font-size: 18px;
+    color: silver;
+    margin: 10px 50px;
+}
+.find__title {
+    border-top: solid 0.5px silver;
+    padding-top: 20px;
+}
+.recomm {
+    padding: 120px 0;
+    text-align: center;
+}

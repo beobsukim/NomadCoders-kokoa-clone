@@ -51,9 +51,6 @@
     color: gray;
     margin-bottom: 10px;
 }
-.fr-list__list {
-    line-height: 10px;
-}
 .fr-list__item {
     display: flex;
     justify-content: space-between;

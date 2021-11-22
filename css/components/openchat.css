@@ -1,0 +1,42 @@
+.openchat--header {
+    position: relative;
+}
+
+.openchat--gotohome {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    font-size: 16px;
+}
+
+.openchat__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.openchat__info {
+    line-height: 30px;
+}
+.info__title {
+    color: black;
+    font-size: 20px;
+}
+.info__status img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.info__status {
+    font-size: 14px;
+    vertical-align: middle;
+}
+.openchat--active {
+    color: pink;
+}
+.openchat__img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
