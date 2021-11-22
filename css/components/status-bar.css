@@ -1,0 +1,10 @@
+.status_bar {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    font-size: 14px;
+}
+.time {
+    font-weight: 600;
+}
