@@ -1,0 +1,68 @@
+.body__talk {
+    background-color: rgb(156, 186, 199);
+}
+
+.date {
+    width: 200px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: lighter;
+    background-color: rgba(146, 144, 144, 0.473);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 180px;
+}
+
+.you {
+    margin: 20px 40px;
+    display: flex;
+    position: relative;
+}
+.you img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.yoursaying {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.recv_time {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+}
+
+
+.me {
+    margin-right: 40px;
+    display: flex;
+    position: relative;
+}
+.mesaying {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    height: 30px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px 0 20px;
+}
+
+.trns_time {
+    position: absolute;
+    top: 70px;
+    right: 150px;
+}
