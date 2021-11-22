@@ -1,0 +1,17 @@
+.upper-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px 20px 40px;
+}
+.upper-bar h1 {
+    width: 75%;
+    font-size: 28px;
+    font-weight: 800;
+}
+.upper-bar__icons {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}

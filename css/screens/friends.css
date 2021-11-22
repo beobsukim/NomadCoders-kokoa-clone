@@ -1,0 +1,103 @@
+.fr-display {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 0 20px;
+}
+.fr-display a {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+}
+.fr-display a i {
+    color: gray;
+}
+
+.fr-list {
+    margin: 10px 40px;
+}
+.fr-list__me {
+    display: flex;
+    padding-bottom: 20px;
+}
+.fr-list img {
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+}
+.fr-list__me img {
+    width: 80px;
+    height: 80px;
+}
+.fr-list__me h1 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px;
+}
+.fr-list__channel {
+    border-top: solid 0.5px silver;
+}
+.fr-list__bar {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.fr-list__list {
+    line-height: 10px;
+}
+.fr-list__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+.fr-list__item h1 {
+    position: absolute;
+    left: 75px;
+    top: 20px;
+    font-size: 20px;
+}
+.fr-list__channel img {
+    width: 60px;
+    height: 60px;
+}
+.list__numberof {
+    padding-top: 20px;
+    color: gray;
+}
+
+
+.fr-list__friends {
+    border-top: solid 0.5px silver;
+}
+.fr-list__friends img {
+    width: 60px;
+    height: 60px;
+}
+.friend__music {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    border: solid 2px green;
+    border-radius: 20px;
+    height: 18px;
+    text-align: center;
+    padding: 6px 10px 0 10px;
+    font-size: 14px;
+}
+.friend__music i {
+    color: green;
+    font-size: 12px;
+}
+
+
+

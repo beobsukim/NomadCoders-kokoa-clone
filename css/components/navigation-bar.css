@@ -1,0 +1,34 @@
+.bottnav {
+    position: fixed;
+    bottom: 0;
+    background-color: whitesmoke;
+    margin: 0 20px;
+}
+.bottnav ul {
+    height: 60px;
+    width: 560px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid 0.5px silver;
+}
+.nav__icons {
+    font-size: 28px;
+    position: relative;
+}
+
+.nav__alert {
+    background-color: tomato;
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    text-align: center;
+    padding-top: 2px;
+}

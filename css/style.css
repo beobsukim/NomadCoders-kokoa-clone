@@ -4,9 +4,12 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/navigation-bar.css";
+@import "components/upper-bar.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
